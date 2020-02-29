@@ -26,3 +26,7 @@
   height: 15vh;
   background-color: springgreen;
 }
+
+.europe :hover {
+  background-color: greenyellow;
+}
