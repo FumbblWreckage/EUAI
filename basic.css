@@ -29,5 +29,5 @@
 }
 
 .europe :hover {
-  background-color: greenyellow;
+  background-color: greenyellow !important;
 }
