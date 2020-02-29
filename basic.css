@@ -28,5 +28,5 @@
 }
 
 .europe :hover {
-  fill: greenyellow;
+  fill: greenyellow !important;
 }
