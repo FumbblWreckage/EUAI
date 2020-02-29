@@ -10,7 +10,7 @@
 }
 .leftWindow {
   display: inline-block;
-  width: 70%;
+  width: 65%;
   height: 100%;
   box-sizing: border-box;
   background-color: skyblue;
@@ -28,5 +28,5 @@
 }
 
 .europe :hover {
-  background-color: greenyellow !important;
+  fill: greenyellow;
 }
