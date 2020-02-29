@@ -6,11 +6,12 @@
   white-space: no-wrap;
   background-color: purple;
   text-align: center;
+  height: 75vh;
 }
 .leftWindow {
   display: inline-block;
   width: 70%;
-  height: 75vh;
+  height: 80vh;
   box-sizing: border-box;
   background-color: skyblue;
 }
