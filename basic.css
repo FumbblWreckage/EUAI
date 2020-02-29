@@ -1,12 +1,12 @@
 .leftWindow {
   display: inline-block;
-  width: 70vw;
+  width: 65vw;
   height: 80vh;
   background-color: skyblue;
 }
 .rightWindow {
   display: inline-block;
-  width: 29vw;
+  width: 25vw;
   height: 80vh;
   background-color: tomato;
 }
