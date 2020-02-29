@@ -1,3 +1,7 @@
+.actionContainer {
+  white-space: no-wrap;
+  background-color: purple;
+}
 .leftWindow {
   display: inline-block;
   width: 70vw;
