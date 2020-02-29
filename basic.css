@@ -1,10 +1,15 @@
+.headSection {
+  height: 5vh;
+  background-color: olivedrab;
+}
 .actionContainer {
   white-space: no-wrap;
   background-color: purple;
+  text-align: center;
 }
 .leftWindow {
   display: inline-block;
-  width: 70%;
+  width: 69%;
   height: 80vh;
   box-sizing: border-box;
   background-color: skyblue;
@@ -17,6 +22,6 @@
   background-color: tomato;
 }
 .bottomWindow {
-  height: 20vh;
+  height: 15vh;
   background-color: springgreen;
 }
