@@ -6,19 +6,19 @@
   white-space: no-wrap;
   background-color: purple;
   text-align: center;
-  height: 75vh;
+  height: 78vh;
 }
 .leftWindow {
   display: inline-block;
   width: 70%;
-  height: 80vh;
+  height: 100%;
   box-sizing: border-box;
   background-color: skyblue;
 }
 .rightWindow {
   display: inline-block;
   width: 29%;
-  height: 80vh;
+  height: 100%;
   box-sizing: border-box;
   background-color: tomato;
 }
