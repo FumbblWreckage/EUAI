@@ -9,14 +9,14 @@
 }
 .leftWindow {
   display: inline-block;
-  width: 69%;
-  height: 80vh;
+  width: 70%;
+  height: 75vh;
   box-sizing: border-box;
   background-color: skyblue;
 }
 .rightWindow {
   display: inline-block;
-  width: 28%;
+  width: 29%;
   height: 80vh;
   box-sizing: border-box;
   background-color: tomato;
