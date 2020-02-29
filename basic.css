@@ -9,6 +9,7 @@
   height: 78vh;
 }
 .leftWindow {
+  white-space: no-wrap;
   display: inline-block;
   width: 70%;
   height: 100%;
