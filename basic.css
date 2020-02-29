@@ -28,5 +28,14 @@
 }
 
 .europe :hover {
-  fill: greenyellow !important;
+  fill: greenyellow;
+}
+.eu {
+  fill: #059;
+  pointer-events:all;
+}
+
+.europe .eu :hover {
+  fill: rgb(133, 145, 117) !important;
+
 }
