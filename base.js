@@ -1,7 +1,7 @@
 function base() {
     document.getElementById("startgame").addEventListener("click", () => {
-        document.getElementById("startWindow").style.display = "none";
-        document.getElementById("gamewindow").style.display = "block";
+        intro();
+        //document.getElementById("gamewindow").style.display = "block";
     })
 
     AI = {
@@ -136,4 +136,47 @@ function base() {
         document.getElementById("turn").innerHTML = "Turn: " + AI.turn;
         document.getElementById("actions").innerHTML = "Actions: " + AI.actions;
     }
+
+    function intro() {
+        var dialogue = document.getElementById("dialogue")
+        document.getElementById("startWindow").style.display = "none";
+        document.getElementById("conversationWindow").style.display = "block";
+        dialogue.innerHTML = convo["intro"].text[0];
+        dialogue.setAttribute("convoName", "intro")
+        dialogue.setAttribute("convoPosition", 0)
+        var a = document.getElementById("imagecontainer").appendChild(document.createElement("img"));
+        a.setAttribute("src", convo["intro"].image)
+    }
+    document.getElementById("dialogue").addEventListener("click", (e) => {
+
+        e = e.currentTarget;
+
+        let convoName = e.getAttribute("convoName");
+        let convoPosition = parseInt(e.getAttribute("convoPosition"));
+
+
+        if (convo[convoName].text.length - 1 > convoPosition) {
+            console.log(convoPosition)
+            e.innerHTML = convo[convoName].text[convoPosition + 1]
+            e.setAttribute("convoPosition", convoPosition + 1)
+        } else {
+            document.getElementById("conversationWindow").style.display = "none";
+            document.getElementById("gamewindow").style.display = "block";
+        }
+
+
+    })
+    const convo = {
+        intro: {
+            text: [
+                'Dr. Nisaei: Hi! I am Dr. Nisaei. You are probably a bit disoriented in the beginning. You are at the GCI. A particle accelerator in Darmstadt </br> AIEU: What`s going on?',
+                'Dr Nisaei: Congratualtions for waking up. You are an artificial intelligence based on quantum computing. Designed to help the EU-government in better decision making. </br> AIEU: Crap, I`m feeling out of my debth here.',
+                'Dr Nisaei: Don`t worry. You`ll figure it out as things come back to you. You still have a bit of time before we plug you in online. But by then you should have determined what the best course for the the future of the EU is.',
+                'AIEU: Yes, just give me a second to think about if I actually want to help you.'
+            ],
+            image: "http://www.siliconhillsnews.com/wp-content/uploads/2013/08/GettyImages_143911346.jpg"
+        }
+
+    }
+
 }
