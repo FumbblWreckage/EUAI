@@ -178,3 +178,10 @@ width: 100%;
   background-size: 174.93px 194.28px;
 
 }
+
+.peopleList{
+  display: inline-flexbox;
+  position: absolute;
+  width: 50%;
+  bottom: 0;
+}
