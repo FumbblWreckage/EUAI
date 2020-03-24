@@ -1,4 +1,5 @@
 #followers{
+  display: hidden;
 position: absolute;
 width:50%;
 height:50%;
