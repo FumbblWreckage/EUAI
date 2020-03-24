@@ -1,3 +1,5 @@
+function followersActivate(){
+
 const followers = {
     window: false
 }
@@ -12,3 +14,4 @@ peopleList.style.display = "none";
     }
 
 })
+}
