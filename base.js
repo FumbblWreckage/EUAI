@@ -1,4 +1,6 @@
 function base() {
+    followersActivate();
+    
     document.getElementById("startgame").addEventListener("click", () => {
         intro();
         //document.getElementById("gamewindow").style.display = "block";
