@@ -6,11 +6,11 @@ const followers = {
 document.getElementById("followers").addEventListener("click", () => {
   const peopleList =  document.getElementById("peopleList"); 
     if (followers.window) {
-peopleList.style.display = "block";
+peopleList.style.display = "none";
              followers.window = false;
     } else {
 
-peopleList.style.display = "none";
+peopleList.style.display = "block";
         followers.window = true;
     }
 
