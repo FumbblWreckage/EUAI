@@ -15,7 +15,7 @@ const persons = [{
 
 }]
 
-addPersons(persons[0])
+addFollower(persons[0])
 document.getElementById("followers").addEventListener("click", () => {
  var peopleList =  document.getElementById("peopleList"); 
     if (followers.window) {
