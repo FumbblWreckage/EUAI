@@ -4,7 +4,7 @@ const followers = {
     window: false
 }
 
-const persons = [
+const persons = [{
     name: "Dr. Nisaei",
     profession: "Scientist",
     followers: 20,
@@ -13,7 +13,7 @@ const persons = [
     attaintiveness: 30,
     cost: 50000
 
-]
+}]
 
 addPersons(persons[0])
 document.getElementById("followers").addEventListener("click", () => {
