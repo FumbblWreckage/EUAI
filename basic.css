@@ -27,6 +27,8 @@
 .bottomWindow {
   height: 15vh;
   background-color: springgreen;
+   font-size: 4vw;
+    cursor: pointer;
 }
 
 .europe :hover {
