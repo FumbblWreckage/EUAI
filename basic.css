@@ -27,8 +27,7 @@
 .bottomWindow {
   height: 15vh;
   background-color: springgreen;
-   font-size: 4vw;
-    cursor: pointer;
+
 }
 
 .europe :hover {
@@ -99,7 +98,8 @@ text-align: center;
   width:10%;
   background-color: darkslateblue;
   border: solid black 1px;
-  font-size: 2.7vw;
+     font-size: 4vw;
+    cursor: pointer;
   text-align: center;;
 }
 
