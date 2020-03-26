@@ -32,13 +32,6 @@ peopleList.style.display = "block";
 
 function addFollower(follower){
 var row = document.createElement("tr")
-row.innerHTML = "<tr><td>"+follower.name+"</td><td>"+follower.profession+\
-    "</td><td>"+follower.followers+\
-    "</td><td>"+follower.influence+\
-    "</td><td>"+follower.skill+\
-    "</td><td>"+follower.attaintiveness+\
-    "</td><td>"+follower.cost+"</td></tr>"   
- document.getElementById("peopleStats").appendChild(row);
-}
-
-}
+row.innerHTML = "<tr><td>"+follower.name+"</td><td>"+follower.profession+"</td><td>"+follower.followers+"</td><td>"+follower.influence+"</td><td>"+follower.skill+"</td><td>"+follower.attaintiveness+"</td><td>"+follower.cost+"</td></tr>"   
+document.getElementById("peopleStats").appendChild(row);
+}}
