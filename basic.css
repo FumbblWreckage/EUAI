@@ -30,6 +30,10 @@
 
 }
 
+table{
+border: solid 1px black
+}
+
 .europe :hover {
   fill: greenyellow;
 }
