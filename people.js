@@ -32,7 +32,7 @@ peopleList.style.display = "block";
 
 function addFollower(follower){
 var row = document.createElement("tr")
-row.innerHTML = "<tr><td>"+follower.name
+row.innerHTML = "<tr class='peoplenames'><td>"+follower.name
     +"</td><td>"+follower.profession
     +"</td><td>"+follower.followers
     +"</td><td>"+follower.influence
