@@ -12,7 +12,13 @@ const persons = [{
     skill: 70,
     attaintiveness: 30,
     cost: 50000
-}]
+},{ name: "Nicole Wagenknecht",
+    profession: "Left Party Leader",
+    followers: 70,
+    influence: 25,
+    skill: 30,
+    attaintiveness: 30,
+    cost: 2500000}]
 
 addFollower(persons[0]);
     
