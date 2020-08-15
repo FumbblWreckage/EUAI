@@ -138,6 +138,7 @@ function base() {
     function newTurn() {
         AI.turn += 1;
         AI.actions = AI.allActions;
+        resolveTurn(AI.turn, "de")
         updateTurnState()
     }
     function updateTurnState() {
