@@ -17,7 +17,7 @@ function resolveTurn(turn, country){
 
 
 
-	eventsInGermany.GermanyTurn1.forEach(event){
+	eventsInGermany[GermanyTurn+turn].forEach(event){
 	
 addPeople(event, country);
 }
