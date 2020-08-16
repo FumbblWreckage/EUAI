@@ -81,8 +81,9 @@ console.log(actionList)
          actionList[country].splice(index,1)};
           console.log("after: "+actionList[country])
         })
-        return;
+       
         }
+     if (event.operator == "decrease"||event.operator == "increase") {
         if (event.operator == "decrease") { increment = increment * (-1) }
         if (AI.actions > 0) {
 
@@ -93,7 +94,7 @@ console.log(actionList)
 
             } else if (nationValue.total) {
                 nationValue.infiltrated += increment;
-            }
+            }}
             ;
             AI.actions -= 1;
             updateTurnState();
