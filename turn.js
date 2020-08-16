@@ -33,7 +33,7 @@ var number = numberOrName;
 //add condition for when it is a name later	
 }
 let newActionObject = {
-	name: eventsInGermany.description,
+	name: eventsInGermany.GermanyTurn1.description,
 	type: ()=>{addPerson(number=number)},
 	operator: "remove"
 	
