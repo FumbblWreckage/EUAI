@@ -28,7 +28,7 @@ addPeople(turn, country);
 function addPeople(numberOrName, country){
 
 
-if (!isNAN(numberOrName)){
+if (!isNaN(numberOrName)){
 var number = numberOrName;	
 //add condition for when it is a name later	
 }
