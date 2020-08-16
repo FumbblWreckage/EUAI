@@ -49,7 +49,7 @@ function base() {
         const actionMenu = document.getElementById("actionMenu");
 
         actionMenu.innerHTML = "";
-
+console.log(actionList)
         actionList[country].forEach((listElement, index) => {
             var nationValue = nationState[country][listElement.type];
 
