@@ -34,7 +34,7 @@ var number = numberOrName;
 }
 let newActionObject = {
 	name: eventsInGermany.description,
-	type: function()=>addPerson(number=number),
+	type: function()=>{addPerson(number=number)},
 	operator: "remove"
 	
 }
