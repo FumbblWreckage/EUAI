@@ -1,3 +1,35 @@
+ var actionList = {
+        de: [{
+            name: "Improve Economy",
+            type: "finances",
+            operator: "increase"
+        }, {
+            name: "Quell Dissent",
+            type: "unrest",
+            operator: "decrease"
+        }, {
+            name: "Infiltrate Parliament",
+            type: "parliament",
+            operator: "increase"
+
+        }, {
+            name: "Start Riot",
+            type: "unrest",
+            operator: "increase"
+        }],
+        fr: [{
+            name: "Infiltrate Parliament",
+            type: "parliament",
+            operator: "increase"
+
+        }, {
+            name: "Start Riot",
+            type: "unrest",
+            operator: "increase"
+        }]
+    }
+
+
 function base() {
     followersActivate();
     
@@ -68,37 +100,7 @@ function base() {
     document.getElementById("de").addEventListener("click", () => menu("de"));
     document.getElementById("fr").addEventListener("click", () => menu("fr"));
 
-    var actionList = {
-        de: [{
-            name: "Improve Economy",
-            type: "finances",
-            operator: "increase"
-        }, {
-            name: "Quell Dissent",
-            type: "unrest",
-            operator: "decrease"
-        }, {
-            name: "Infiltrate Parliament",
-            type: "parliament",
-            operator: "increase"
-
-        }, {
-            name: "Start Riot",
-            type: "unrest",
-            operator: "increase"
-        }],
-        fr: [{
-            name: "Infiltrate Parliament",
-            type: "parliament",
-            operator: "increase"
-
-        }, {
-            name: "Start Riot",
-            type: "unrest",
-            operator: "increase"
-        }]
-    }
-
+   
 
 
 
