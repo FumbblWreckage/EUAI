@@ -15,7 +15,7 @@ var eventsInGermany = {events: {
 function resolveTurn(turn, country){
 
 
-	
+	console.log("t1: "+ turn)
 	
 	
 addPeople(turn, country);
@@ -26,7 +26,7 @@ addPeople(turn, country);
 
 
 function addPeople(numberOrName, country){
-
+console.log("NoN: "numberOrName)
 
 if (numberOfName === !isNAN(numberOrName)){
 var number = numberOrName;	
