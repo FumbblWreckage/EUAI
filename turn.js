@@ -18,28 +18,28 @@ function resolveTurn(turn, country){
 
 
 
+	eventsInGermany.GermanyTurn1.forEach(event){
 	
-	
-addPeople(turn, country);
-
+addPeople(event, country);
+}
 		
 }
 
 
 
-function addPeople(numberOrName, country){
+function addPeople(event, country){
 
 
-if (!isNaN(numberOrName)){
-var number = numberOrName;	
+if (event.personNo>0){
+var number = event.personNo;	
 //add condition for when it is a name later	
 }
-eventsInGermany.GermanyTurn1.forEach(event){
+
 	let newActionObject = {
 	name: event.description,
 	type: ()=>{addPerson(number=number)},
 	operator: "remove"
-	}
+	
 }
 
 
