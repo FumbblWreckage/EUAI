@@ -76,7 +76,7 @@ console.log(actionList)
         if (event.operator == "remove"){
         //event.    
         actionList[country].forEach((entry, index)=>{
-        if (entry.name == event.name) entry.splice(index,1);
+        if (entry.name == event.name) actionList[country].splice(index,1);
         })
         return;
         }
