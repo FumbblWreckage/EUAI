@@ -44,12 +44,13 @@ function base() {
         actions: 3,
         allActions: 3
     }
-
+var menuOpen = "none";
     function menu(country) {
+     menuOpen=country;
         const actionMenu = document.getElementById("actionMenu");
 
         actionMenu.innerHTML = "";
-console.log(actionList)
+
         actionList[country].forEach((listElement, index) => {
             var nationValue = nationState[country][listElement.type];
 
@@ -77,9 +78,9 @@ console.log(actionList)
         //event.    
         actionList[country].forEach((entry, index)=>{
         if (entry.name == event.name) {
-         console.log("before: "+actionList[country])
+      
          actionList[country].splice(index,1)};
-          console.log("after: "+actionList[country])
+     
         })
        
         }
