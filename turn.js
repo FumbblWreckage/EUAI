@@ -17,9 +17,11 @@ function resolveTurn(turn, country){
 
 
 
-if("GermanyTurn"+turn in eventsInGermany)eventsInGermany["GermanyTurn"+turn].forEach((event)=>{
+if("GermanyTurn"+turn in eventsInGermany)eventsInGermany["GermanyTurn"+turn].forEach((event, index)=>{
 	
 addPeople(event, country);
+	eventsInGermany["GermanyTurn"+turn].splice(index, 1);
+	
 	});
 		
 }
