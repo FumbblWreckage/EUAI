@@ -1,7 +1,7 @@
 var eventsInGermany = {
 	GermanyTurn1: [],
-	GermanyTurn2: [
-	where: "Germany",
+	GermanyTurn2: 
+	[where: "Germany",
 	countryID: "de",
 	turn: 2,
 	person: "Nicole Wagenknecht",
