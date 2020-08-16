@@ -189,7 +189,7 @@ console.log(actionList)
                 'Dr Nisaei: Don`t worry. You`ll figure it out as things come back to you. You still have a bit of time before we plug you in online. But by then you should have determined what the best course for the the future of the EU is.',
                 'AIEU: Yes, just give me a second to think about if I actually want to help you.'
             ],
-            image: "http://www.siliconhillsnews.com/wp-content/uploads/2013/08/GettyImages_143911346.jpg"
+            image: "https://github.com/FumbblWreckage/EUAI/blob/master/GettyImages_143911346.jpg"
         }
 
     }
