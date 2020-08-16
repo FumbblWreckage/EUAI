@@ -1,12 +1,14 @@
 var eventsInGermany = {
-	GermanyTurn1: {
+	{
+	GermanyTurn1: [],
+	GermanyTurn2: [
 	where: "Germany",
 	countryID: "de",
 	turn: 2,
 	person: "Nicole Wagenknecht",
 	personNo: 1,
-	description: "Convince left wing leader Nicole Wagenknecht to join your cause."}
-}
+	description: "Convince left wing leader Nicole Wagenknecht to join your cause."]
+}}
 
 
 
@@ -32,11 +34,12 @@ if (!isNaN(numberOrName)){
 var number = numberOrName;	
 //add condition for when it is a name later	
 }
-let newActionObject = {
-	name: eventsInGermany.GermanyTurn1.description,
+eventsInGermany.GermanyTurn1.forEach(event){
+	let newActionObject = {
+	name: event.description,
 	type: ()=>{addPerson(number=number)},
 	operator: "remove"
-	
+	}
 }
 
 
