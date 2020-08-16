@@ -1,12 +1,12 @@
 var eventsInGermany = {
 	GermanyTurn1: [],
 	GermanyTurn2: 
-	[where: "Germany",
+	[{where: "Germany",
 	countryID: "de",
 	turn: 2,
 	person: "Nicole Wagenknecht",
 	personNo: 1,
-	description: "Convince left wing leader Nicole Wagenknecht to join your cause."]
+	description: "Convince left wing leader Nicole Wagenknecht to join your cause."}]
 }
 
 
