@@ -26,7 +26,7 @@ addPeople(turn, country);
 
 
 function addPeople(numberOrName, country){
-console.log("NoN: "numberOrName)
+console.log("NoN: "+numberOrName)
 
 if (numberOfName === !isNAN(numberOrName)){
 var number = numberOrName;	
