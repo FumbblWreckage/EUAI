@@ -76,7 +76,10 @@ console.log(actionList)
         if (event.operator == "remove"){
         //event.    
         actionList[country].forEach((entry, index)=>{
-        if (entry.name == event.name) actionList[country].splice(index,1);
+        if (entry.name == event.name) {
+         console.log("before: "+actionList[country])
+         actionList[country].splice(index,1)};
+          console.log("after: "+actionList[country])
         })
         return;
         }
